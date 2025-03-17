@@ -74,11 +74,17 @@ li, a, button{
 footer {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     align-items: center;
     padding: 20px;
     background-color: #C2D98C;
     color: #000;
     height: 120px;
+    footer + * {
+    margin-top: 0;
+}
 }
 
 .footer-left,
