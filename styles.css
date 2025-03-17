@@ -19,15 +19,42 @@
   color: inherit;
 }
 
+
 /* min body height */
 
 body {
   min-height: 100vh;
 }
 
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
 body{  
     font-family: 'Montserrat', Arial, Helvetica, sans-serif, sans-serif;
-    font-size: 100%;
+    /*font-size: 100%;*/
     background-color: #F5F5F5;
     color: #150A03;
+    line-height: 1.5;
+}
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+p{
+  font-size: 16px;
 }
