@@ -1,0 +1,43 @@
+main{
+    margin: 150px 100px ;
+}
+
+
+h1{
+    /*font-size: 2em;*/
+    text-align: center;
+}
+
+.bredbox{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    align-items: center;
+    padding: 3% 10%;
+  }
+
+.opdeltbox{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    align-items: center;
+    padding: 3% 5%;
+}
+  
+   
+.opdeltbox > section{
+    width: 45%;
+    border-radius: 12px;
+    text-align: left;
+}
+
+
+.opdeltbox img{
+    border-radius: 10px;
+}
