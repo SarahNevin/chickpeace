@@ -1,0 +1,71 @@
+li, a, button{
+    text-decoration: none;
+  }
+  /*----------Header og navigationsbælte----------------*/
+  
+  header{
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 30px 5%;
+    color: #150A03; 
+    background-color: #95B250;
+  /*  border-bottom: 2px solid black;*/
+  /*  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);*/
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .logo img{
+    height: 70px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+  }
+    
+/*  .logo:hover{
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }*/
+  
+  .nav_links{list-style: none;}
+  
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .nav_links li a{transition: all 0.3s ease 0s;}
+  
+  .nav_links li a:hover{
+    color: #150A03;
+    letter-spacing: 0.02rem;
+  }
+  
+  .chosen{
+    font-weight: 600;
+  }
+  
+  button{
+    color: #150A03;
+    text-align: left;
+    font-weight: 500;
+    padding: 5px 10px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    border: 1px solid #150A03;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+/*    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);*/
+  }
+  
+  button:hover{background-color: rgba(255, 255, 255, 0.3);}
