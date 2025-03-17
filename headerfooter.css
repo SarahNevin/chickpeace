@@ -53,7 +53,7 @@ li, a, button{
     font-weight: 600;
   }
   
-  button{
+  header button{
     color: #150A03;
     text-align: left;
     font-weight: 500;
@@ -64,11 +64,9 @@ li, a, button{
     border: 1px solid #150A03;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-/*    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);*/
   }
   
-  button:hover{background-color: rgba(255, 255, 255, 0.3);}
+  header button:hover{background-color: rgba(255, 255, 255, 0.3);}
 
 footer {
     display: flex;
