@@ -41,3 +41,12 @@ h1{
 .opdeltbox img{
     border-radius: 10px;
 }
+
+.green-box {
+    background-color: rgba(149, 178, 80, 0.5);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
