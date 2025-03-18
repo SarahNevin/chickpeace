@@ -5,7 +5,6 @@
 
 /* makes sizing simpler */
 /* remove default spacing */
-/* force styling of type through styling, rather than elements */
 
 * {
   box-sizing: border-box;
