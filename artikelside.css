@@ -8,23 +8,13 @@ h1{
 }
 
 .bredbox{
-    position: relative;
-    display: flex;
-    justify-content:space-between;
-    align-content: center;
-    flex-flow: row wrap;
-    flex-grow: 1;
     align-items: center;
     padding: 3% 15%;
   }
 
 .opdeltbox{
-    position: relative;
     display: flex;
     justify-content:space-between;
-    align-content: center;
-    flex-flow: row wrap;
-    flex-grow: 1;
     align-items: center;
     padding: 3% 5%;
 }
@@ -52,12 +42,8 @@ h1{
 
 .opdeltgreenbox{
     padding: 20px;
-    position: relative;
     display: flex;
     justify-content:space-between;
-    align-content: center;
-    flex-flow: row wrap;
-    flex-grow: 1;
     background-color: #95B25080;
     border-radius: 20px;
   }
@@ -65,14 +51,12 @@ h1{
    
 .opdeltgreenbox > div{
     width:30%;
-    padding: 0px;
     border-radius: 12px;
     text-align: center;
 }
 
 
 .opdeltgreenbox img{
-    max-width: 100%;
     border-radius: 10px;
     border: 2px solid #95B250;
 }
