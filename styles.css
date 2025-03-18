@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat Alternates');*/
 
-/* makes sizing simpler */
+/*---------- reset css ----------*/
 
+/* makes sizing simpler */
 *,
 *::before,
 *::after {
@@ -35,6 +36,10 @@ video {
   max-width: 100%;
 }
 
+/*---------- reset css slut ----------*/
+
+/*---------- generel styles ----------*/
+
 body{  
     font-family: 'Montserrat', Arial, Helvetica, sans-serif, sans-serif;
     /*font-size: 100%;*/
@@ -43,8 +48,10 @@ body{
     line-height: 1.5;
 }
 
+
 h1{
   font-size: 50px;
+  font-weight: auto;
 }
 
 h2{
