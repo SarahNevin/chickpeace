@@ -14,10 +14,8 @@ li, a, button{
     right: 0;
     top: 0;
     padding: 30px 2%;
-    color: #150A03; 
+    color: #000; 
     background-color: #95B250;
-  /*  border-bottom: 2px solid black;*/
-  /*  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);*/
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   }
   
@@ -45,7 +43,7 @@ li, a, button{
   .nav_links li a{transition: all 0.3s ease 0s;}
   
   .nav_links li a:hover{
-    color: #150A03;
+    color: #000;
     letter-spacing: 0.02rem;
   }
   
@@ -54,7 +52,7 @@ li, a, button{
   }
   
   header button{
-    color: #150A03;
+    color: #000;
     text-align: left;
     font-weight: 500;
     padding: 5px 10px;
