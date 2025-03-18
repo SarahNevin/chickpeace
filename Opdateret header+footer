@@ -27,7 +27,7 @@
                     <li><a href="#" target="_self">Snacks</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="madplanside" target="_self">Madplaner</a>
+            <li class="dropdown"><a href="madplanside.html" target="_self">Madplaner</a>
             <ul class="menu">
                 <li><a href="#" target="_self">Ugens madplan</a></li>
                 <li><a href="#" target="_self">Tidligere madplaner</a></li>
