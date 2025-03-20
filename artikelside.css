@@ -46,27 +46,27 @@ h1{
     justify-content: space-between;
     background-color: #95B25080;
     border-radius: 20px;
-    margin: 0 auto; /* nyt */
-    flex-wrap: wrap;  /* nyt */
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .opdeltgreenbox > div {
     width: 30%;
-    margin-bottom: 10px; /* nyt */
+    margin-bottom: 10px;
     border-radius: 12px;
     text-align: center;
 }
 
 .opdeltgreenbox img {
-    width: 100%;  /* nyt/
-    height: auto;  /* nyt */
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     border: 2px solid #95B250;
 }
 
 .two-img > div {
     width: 48%;
-    margin-bottom: 10px; /* nyt */
+    margin-bottom: 10px;
     border-radius: 12px;
     text-align: center;
 }
