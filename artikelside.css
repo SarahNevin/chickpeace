@@ -40,23 +40,33 @@ h1{
     margin-bottom: 20px;
 }
 
-.opdeltgreenbox{
+.opdeltgreenbox {
     padding: 20px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     background-color: #95B25080;
     border-radius: 20px;
-  }
-  
-   
-.opdeltgreenbox > div{
-    width:30%;
+    margin: 0 auto; /* nyt */
+    flex-wrap: wrap;  /* nyt */
+}
+
+.opdeltgreenbox > div {
+    width: 30%;
+    margin-bottom: 10px; /* nyt */
     border-radius: 12px;
     text-align: center;
 }
 
-
-.opdeltgreenbox img{
+.opdeltgreenbox img {
+    width: 100%;  /* nyt/
+    height: auto;  /* nyt */
     border-radius: 10px;
     border: 2px solid #95B250;
+}
+
+.two-img > div {
+    width: 48%;
+    margin-bottom: 10px; /* nyt */
+    border-radius: 12px;
+    text-align: center;
 }
